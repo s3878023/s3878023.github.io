@@ -68,22 +68,53 @@ http://www.templatemo.com/tm-488-classic
                         <div class="tm-blog-post">
                             <h3 class="tm-gold-text">BRANCHING</h3>
                            
-                            <img src="./img/image/pic1 git vs github.png" alt="Image" class="img-fluid tm-img-post">
+                            <img src="img/image/Picture11 branch.png" alt="Image" class="img-fluid tm-img-post">
+                            <p>the image <a href ="https://www.atlassian.com/git/tutorials/using-branches">link</a> </p>
                             
-                            <p> Here are a few easy steps for you to install Git:
-                                So there are two main OS is Mac and Window:
+                            <p>Branch is what is used to branch and record the flow of history. Branched branches will not affect another branch, so you can perform many changes simultaneously in the same repository.
                                 </p>
 
-                            <p>Mac:
-                                The easiest way is to install the Xcode Command Line Tools and simply do it by running git from the Terminal the very first time.
-                                If you don’t have it installed already, it will prompt you to install it. 
-                                If you want a more up to date version, you can also install it via a binary installer. A macOS Git installer is maintained and available for download at the Git website, at <a href="https://git-scm.com/download/mac">link</a> 
+                            <p>Furthermore, a branched branch can be modified to merge into one branch by merging with another branch. 
                                 </p>
-                            <img src="./img/image/pic 2 install.png">
+                            
 
-                            <p>Git when being compared to other control systems, Git shows that it is very responsive and easy to use, especially  Git is free to use. This system is designed to work smoothly with txt files which is the true nature of code. (devmountain n.d)</p>
-
-                            <p>Github, on the other hand, is designed to be a Git repository hosting device. Through GitHub, you can share your code with others and encourage them to develop and upgrade on your previous Git branches. As changes happened, new branches will be created, enabling all of the teammates to continue to code and avoid overwriting each other’s work. (devmountain n.d)</p>
+                            <p>There are a few simple manipulations in branching:
+                                Create the branch on your local PC and switch into working on this new branch :
+                                * git checkout -b [name_of_your_new_branch]
+                            </br>
+                        </br>
+                                 Push the branch on github :
+                                * git push origin [name_of_your_new_branch]
+                            </br>
+                                 Add a new remote for your branch :
+                                * git remote add [name_of_your_remote] [name_of_your_new_branch]
+                            </br>
+                        </br>
+                                 Push changes from your PC (comit) into your branch :
+                                   * git push [name_of_your_new_remote] [url]
+                                </br>
+                            </br>
+                                 Delete a branch on the local PC:
+                                 * git branch -d [name_of_your_new_branch]
+                                </br>
+                            </br>
+                                 Force to delete on your local PC :
+                                 * git branch -D [name_of_your_new_branch]
+                                </br>
+                            </br>
+                                 Delete the branch on github :
+                                 * git push origin :[name_of_your_new_branch]
+                                </br>
+                            </br>
+                                Update your branch when the original one when the official repository has been changed
+                                * git fetch [name_of_your_remote]
+                            </br>
+                        </br>
+                                 You can see all the branches created by using :
+                                * git branch -a  </p>
+                               
+                                  
+                            <p></p>
                         </div>
                     </div>
                     
